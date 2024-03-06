@@ -2,7 +2,6 @@ import { useState } from 'react'
 
 function App() {
   const [intentos, setIntentos] = useState(0);
-  const [resultAct, setResultAct] = useState('')
   const tossCoin = () => {
     return Math.random() > 0.5 ? "cara" : "cruz";
   }
